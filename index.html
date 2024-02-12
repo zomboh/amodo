@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>amodo - a random walker powered texture generator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A random walker powered texture generator by Jorge - www.jorgefuentes.net">
+  <meta name="keywords" content="random walkers, generative art, creative programming, p5, lil-gui">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link href="css/fonts.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <script defer src="libs/lil-gui.min.js"></script>
+  <script defer src="libs/p5.min.js"></script>
+  <script defer src="js/vars.js"></script>
+  <script defer src="js/icons.js"></script>
+  <script defer src="js/utils.js"></script>
+  <script defer src="js/gui.js"></script>
+  <script defer src="js/walkerClass.js"></script>
+  <script defer src="js/amodo.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="appInfo">
+    </div>
+    <div class="info">
+      <h1>amodo <span class="version"></span></h1>
+      <h2>by <a href="https://www.jorgefuentes.net">jorge</a> · <a href="https://github.com/zomboh/amodo">github</a></h2>
+    </div>
+    <div class="helpContainer">
+      <div class="helpInner">
+        <button class="button closeHelpButton" role="button">
+          Close help
+        </button>
+        <header>
+          <h1>amodo <span class="version"></span></h1>
+          <h2>a random walker powered texture generator</h2>
+        </header>
+        <h3>
+          quick help
+        </h3>
+        <ul class="guide">
+          <li class="guideItem">
+            <strong>left click</strong> anywhere on the canvas to create a walker
+          </li>
+          <li class="guideItem">
+            explore and play with parameters on the <strong>right sidebar</strong>
+          </li>
+          <li class="guideItem">
+            click and drag with the <strong>middle mouse button</strong> to pan the canvas
+          </li>
+          <li class="guideItem">
+            use your <strong>mousewheel</strong> to zoom in/out the canvas <em>(<strong>only for preview when the canvas is too big or small for your screen</strong> - the real, exported size is set in the parameters)</em>
+          </li>
+        </ul>
+        <h3>
+          tips
+        </h3>
+        <ul class="tips">
+          <li class="tipsItem">
+            mobile devices are not supported
+          </li>
+          <li class="tipsItem">
+            if you create too many walkers (20+), redrawing will slow down to prevent UI blocking - try increasing the brush size or spacing a bit if you want faster results
+          </li>
+        </ul>
+        <footer>
+          <p class="author">
+            <strong>by jorge: <a href="https://www.jorgefuentes.net">www.jorgefuentes.net</a></strong>
+          </p>
+          <p>
+            tools: ☕ + <a href="https://p5js.org">p5</a> + <a href="https://lil-gui.georgealways.com">lil-gui</a>
+          </p>
+          <p>
+            icons: <a href="https://tabler.io">tabler.io</a> + <a href="https://iconoir.com">iconoir.com</a>
+          </p>
+          <p>
+          type: <a href="https://www.ibm.com/plex/">IBM Plex Sans</a>
+          </p>
+          <p>
+          source code: <a href="https://github.com/zomboh/amodo">https://github.com/zomboh/amodo</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <canvas id="mainCanvas"></canvas>
+  </main>
+</body>
+</html>
