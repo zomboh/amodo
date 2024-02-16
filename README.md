@@ -1,3 +1,5 @@
+https://github.com/zomboh/amodo/assets/17140223/1acc92f6-ead3-4be6-94c7-6946b7ac68ab
+
 ![amodo banner](./amodo_banner.jpg)
 # amodo - a random walker powered texture generator
 
