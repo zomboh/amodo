@@ -5,7 +5,7 @@ https://github.com/zomboh/amodo/assets/17140223/1acc92f6-ead3-4be6-94c7-6946b7ac
 
 *(In a hurry? You can try **amodo** at [https://amodo.pages.dev](https://amodo.pages.dev))*
 
-**amodo sits halfway between a tool for texture artists and a generative art toy:** you can load the reference image of a stone wall as a reference for the background and then use a custom multi-texture brush walker to create moss-like vegetation on top of it... or you can play around and experiment with the parameters until you find something you simply like.
+**amodo sits halfway between a tool for texture artists and a generative art toy:** you can load the image of a stone wall as a background reference and then use a custom multi-texture brush walker to create moss-like vegetation on top of it... or you can play around and experiment with the parameters until you find something you simply like.
 
 ## How to use
 **amodo only works in desktop computers with a somewhat capable CPU/GPU and mouse/keyboard as input devices.**
