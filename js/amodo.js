@@ -51,14 +51,16 @@ function draw() {
   imageMode(CENTER);
   image(bgBuffer, int(canvasPosition.x), int(canvasPosition.y), canvasResolution * zoomFactor, canvasResolution * zoomFactor);
 
+  walkersBuffer.begin();
   for (let i = 0; i < walkers.length; i++) {
-    for (let j = 0; j < 1500 / walkers.length; j++) {
+    for (let j = 0; j < 5000 / walkers.length; j++) {
       if (walkers[i].steps < maxSteps * maxStepsMultiplier) {
         walkers[i].render();
         walkers[i].step();
       }
     }
   }
+  walkersBuffer.end();
 
   push();
   imageMode(CENTER);

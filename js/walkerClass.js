@@ -57,7 +57,6 @@ class Walker {
   render() {
     if (this.x < 0 || this.x > walkersBuffer.width || this.y < 0 || this.y > walkersBuffer.height) return;
 
-    walkersBuffer.begin();
     push();
     noFill();
     noStroke();
@@ -167,7 +166,6 @@ class Walker {
     }
 
     pop();
-    walkersBuffer.end();
   }
 
   step() {
